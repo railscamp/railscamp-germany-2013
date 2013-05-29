@@ -66,7 +66,7 @@ costing around 25 bucks. That's still a killer deal for a 2.5-day developer
 paradise, and that's mostly due to our awesome...
 
 Sponsors! We haven't compiled the various packages yet, but if you're running or
-working at a commpany who might chip in a few bucks (or many), please get in
+working at a company which could chip in a few bucks (or many), please get in
 touch! We'll have sponsoring opportunities starting at a few hundred Euro, so
 there'll be something for every budget. And if you're on the lookout for new
 developers to hire, we have some nice extras planned for you.
