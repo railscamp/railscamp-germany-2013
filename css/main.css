@@ -49,7 +49,6 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
 }
 
 ul.posts li {
@@ -146,6 +145,11 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+#post h2.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -175,4 +179,14 @@ ul.posts span {
 
 #post pre.terminal code {
   background-color: #333;
+}
+
+.footnotes {
+  padding: 40px 0;
+  font-size: 13px;
+}
+
+.footnotes hr {
+  border: none;
+  border-top: 1px solid #ccc;
 }
