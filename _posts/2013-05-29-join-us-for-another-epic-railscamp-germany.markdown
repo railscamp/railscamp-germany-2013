@@ -16,6 +16,9 @@ activities and spontaneous RailsCamp craziness to happen. If you want, you can
 even set up tent in the the neighboring skate hall, so you don't have to leave
 during the whole weekend. And how about a climb up the walls during the day?
 
+![Venue, Main Hall]({{site.baseurl}}/img/venue_main-hall_1.png)
+![Venue, Main Hall]({{site.baseurl}}/img/venue_main-hall_2.png)
+
 As you can see, RailsCamp Germany is still all about networking and exchanging
 knowledge and ideas in the most laid-back atmosphere possible – no stress, no
 hardcore schedule, lots of fun, and space for whatever you feel like doing. And
@@ -49,8 +52,8 @@ something new, and join the conversation:
   information. If you want access, just request it. It's not necessary for
   anything other than looking at a few boring numbers, though. ;)
 
-We're also doing Google Hangouts from time to time, which are announced on
-Twitter.
+We're also doing regular Google Hangouts every Tuesday at 5pm. The URL is
+always shared on both IRC and Twitter.
 
 For session planning before and during the event, we will have a nice little
 Rails app, developed by the fine folks of [eurucamp](http://2013.eurucamp.org/).
@@ -62,7 +65,7 @@ required.
 In light of the increased costs, and that we cannot afford too much uncertainty
 on no-shows, this year we will have entry fees for the first time ever. We'll
 have 3 types of tickets – students, normal, and supporters – with the normal one
-costing around 25 bucks. That's still a killer deal for a 2.5-day developer
+costing around 25 EUR. That's still a killer deal for a 2.5-day developer
 paradise, and that's mostly due to our awesome...
 
 Sponsors! We haven't compiled the various packages yet, but if you're running or

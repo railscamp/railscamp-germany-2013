@@ -181,6 +181,11 @@ ul.posts span {
   background-color: #333;
 }
 
+#post img {
+  max-width: 100%;
+  padding: 10px 0;
+}
+
 .footnotes {
   padding: 40px 0;
   font-size: 13px;
