@@ -40,6 +40,16 @@ body > header .menu {
   text-align: right;
 }
 
+body > header #logo a {
+  display: inline-block;
+  height: 30px;
+  padding: 6px 20px;
+}
+
+body > header #logo img {
+  height: 30px;
+}
+
 .pure-menu.pure-menu-open {
   background: transparent;
 }
@@ -55,7 +65,7 @@ body > header .menu {
 }
 
 .hero {
-  padding: 80px 0;
+  padding: 60px 0;
   background: url('/img/bg_hero_frontpage_1.jpg') 50% center no-repeat;
   background-size: cover;
   box-shadow: rgba(0, 0, 0, 1) 0 0 5px inset;
@@ -83,6 +93,12 @@ body > header .menu {
 .hero .subheading {
   font-size: 18px;
   -webkit-transform: rotate(-1deg);
+}
+
+.hero img.flame {
+  width: 200px;
+  opacity: 0.9;
+  margin-left: -20px;
 }
 
 
