@@ -28,7 +28,7 @@ body > header {
 }
 
 body > header .content {
-  width: 70%;
+  width: 85%;
   max-width: 960px;
   margin: 0 auto;
   text-align: left;
@@ -100,7 +100,7 @@ body > header #logo img {
 }
 
 #content {
-  width: 70%;
+  width: 85%;
   max-width: 960px;
   margin: 0 auto;
   padding: 40px 20px;
