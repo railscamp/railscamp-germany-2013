@@ -4,139 +4,65 @@
 /*
 /*****************************************************************************/
 
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html, body { height: 100%; }
-
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font: 16px 'Source Sans Pro', Helvetica, Arial, sans-serif;
   text-align: center;
+  padding-top: 42px;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
 
 a         { color: #a00; }
 a:hover   { color: #000; }
 /* a:visited { color: #a0a; } */
 
-table {
-  font-size: inherit;
-  font: 100%;
+#content {
+  width: 70%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-#home section {
-  padding: 0 0 20px 0;
+body > header {
+  background: #EDEADE;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
-#home section.photos {
-  padding: 50px 0 100px 0;
+body > header .content {
+  width: 70%;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-ul.posts {
-  list-style-type: none;
+body > header .menu {
+  text-align: right;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+.pure-menu.pure-menu-open {
+  background: transparent;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.site .header {
-  padding-bottom: 20px;
-}
-
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
-  color: #000;
-}
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
-}
-
-.site .meta {
-  color: #aaa;
-}
-
-.site .footer {
-  font-size: 80%;
+.pure-menu li a {
+  padding: 8px 20px;
   color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
 }
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
+.pure-menu li a:hover {
+  background: #CBC4B2;
+  color: #333;
 }
 
-.site .footer .contact a {
-  color: #8085C1;
+.hero {
+  padding: 80px 0;
 }
 
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
+.hero h1 {
+  margin: 0;
+  padding: 0;
 }
 
-.site .footer .rss img {
-  border: 0;
-}
 
 /*****************************************************************************/
 /*
@@ -144,7 +70,6 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-/* standard */
 #post h2.title {
   font-size: 22px;
   font-weight: bold;

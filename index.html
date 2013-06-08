@@ -3,40 +3,47 @@ layout: default
 title: RailsCamp Germany 2013
 ---
 
-<div id="home">
-  <section>
-    <p><strong>Full website coming soon. In the meantime:</strong></p>
-    <ul>
-      <li>Mark your calendar!</li>
-      <li>Follow us <a href="https://twitter.com/railscamp_de">on Twitter</a></li>
-      <li>Track the event <a href="http://lanyrd.com/2013/rcg13/">on Lanyrd</a></li>
-      <li>Think about how you want to contribute (e.g. preparing a talk/session,
-      helping with organization, helping out on site during the event).</li>
-    </ul>
-  </section>
-  <section>
-    <p><strong>Get involved with unorganizing our unconference:</strong></p>
-    <ul>
-      <li><a href="http://titanpad.com/BUX3ZVllLt">Check out the idea pad</a> and
-      add your name to something you want to be responsible for</li>
-      <li>Get on the <a href="https://groups.google.com/forum/?fromgroups#!forum/railscamp2013">
-        orga mailing list</a></li>
-      <li>Jump on the IRC channel: <a href="irc://irc.freenode.net:7000/5apps">
-        #railscamp_de on Freenode</a></li>
-    </ul>
-  </section>
-  <section class="blog">
-    <p><strong>Check out what's new:</strong></p>
-    <ul class="posts">
-      {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </section>
-  <section class="photos">
-    <img src="img/venue_main-hall_1.png" alt="Venue, Main Hall" />
-    <img src="img/venue_main-hall_2.png" alt="Venue, Main Hall" />
-    <img src="img/venue_outside_1.png" alt="Venue, outside" />
-    <img src="img/venue_skate-hall_1.png" alt="Venue, Skate Hall" />
-  </section>
+<div class="hero pure-g-r">
+  <div class="pure-u-1">
+    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+    <p>July 27/28, 2013 &middot; Abenteuerhallen Kalk, Cologne</p>
+  </div>
 </div>
+
+<!-- <div id="home"> -->
+<!--   <section> -->
+<!--     <p><strong>Full website coming soon. In the meantime:</strong></p> -->
+<!--     <ul> -->
+<!--       <li>Mark your calendar!</li> -->
+<!--       <li>Follow us <a href="https://twitter.com/railscamp_de">on Twitter</a></li> -->
+<!--       <li>Track the event <a href="http://lanyrd.com/2013/rcg13/">on Lanyrd</a></li> -->
+<!--       <li>Think about how you want to contribute (e.g. preparing a talk/session, -->
+<!--       helping with organization, helping out on site during the event).</li> -->
+<!--     </ul> -->
+<!--   </section> -->
+<!--   <section> -->
+<!--     <p><strong>Get involved with unorganizing our unconference:</strong></p> -->
+<!--     <ul> -->
+<!--       <li><a href="http://titanpad.com/BUX3ZVllLt">Check out the idea pad</a> and -->
+<!--       add your name to something you want to be responsible for</li> -->
+<!--       <li>Get on the <a href="https://groups.google.com/forum/?fromgroups#!forum/railscamp2013"> -->
+<!--         orga mailing list</a></li> -->
+<!--       <li>Jump on the IRC channel: <a href="irc://irc.freenode.net:7000/5apps"> -->
+<!--         #railscamp_de on Freenode</a></li> -->
+<!--     </ul> -->
+<!--   </section> -->
+<!--   <section class="blog"> -->
+<!--     <p><strong>Check out what's new:</strong></p> -->
+<!--     <ul class="posts"> -->
+<!--       {% for post in site.posts %} -->
+<!--       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
+<!--       {% endfor %} -->
+<!--     </ul> -->
+<!--   </section> -->
+<!--   <section class="photos"> -->
+<!--     <img src="img/venue_main-hall_1.png" alt="Venue, Main Hall" /> -->
+<!--     <img src="img/venue_main-hall_2.png" alt="Venue, Main Hall" /> -->
+<!--     <img src="img/venue_outside_1.png" alt="Venue, outside" /> -->
+<!--     <img src="img/venue_skate-hall_1.png" alt="Venue, Skate Hall" /> -->
+<!--   </section> -->
+<!-- </div> -->

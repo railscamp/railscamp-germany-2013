@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="/css/syntax.css">
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/pure.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="content pure-g-r">
+        <div id="logo" class="pure-u-1-5">
+          <a href="/">RCG</a>
+        </div>
+        <div class="menu pure-u-4-5">
+          <nav class="pure-menu pure-menu-open pure-menu-horizontal">
+            <ul>
+              <li>
+                <a href="/venue">Home</a>
+              </li>
+              <li>
+                <a href="/venue">Venue</a>
+              </li>
+              <li>
+                <a href="/venue">Schedule</a>
+              </li>
+              <li>
+                <a href="/venue">RailsGirls</a>
+              </li>
+              <li>
+                <a href="/venue">SassCamp</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
 
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <p>July 27/28, 2013 &middot; Abenteuerhallen Kalk, Cologne</p>
-              <!-- <a class="extra" href="/">home</a> -->
-            </div>
-     
-                {{ content }}
-
-            <!-- <div class="footer"> -->
-            <!--   <div class="contact"> -->
-            <!--     <p> -->
-            <!--       Your Name<br /> -->
-            <!--       What You Are<br /> -->
-            <!--       your@email.com -->
-            <!--     </p> -->
-            <!--   </div> -->
-            <!--   <div class="contact"> -->
-            <!--     <p> -->
-            <!--       <a href="http://github.com/yourusername/">github.com/yourusername</a><br /> -->
-            <!--       <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br /> -->
-            <!--     </p> -->
-            <!--   </div> -->
-            <!-- </div> -->
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+  <div id="content">
+    {{ content }}
+  </div>
 </html>
