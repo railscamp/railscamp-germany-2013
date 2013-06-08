@@ -11,7 +11,7 @@ body {
   padding-top: 42px;
 }
 
-a         { color: #a00; }
+a         { color: #d21f08; }
 a:hover   { color: #000; }
 /* a:visited { color: #a0a; } */
 
@@ -56,11 +56,33 @@ body > header .menu {
 
 .hero {
   padding: 80px 0;
+  background: url('/img/bg_hero_frontpage_1.jpg') 50% center no-repeat;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 1) 0 0 5px inset;
+  margin: 0 -5px;
+  color: #fff;
+  /* text-shadow: #000 1px 1px 2px; */
+}
+
+.hero h1, .hero .subheading {
+  display: inline-block;
+  margin: 0;
+  padding: 0 18px;
+  background: #d21f08;
+  opacity: 0.9;
+  font-weight: 300;
+  -webkit-backface-visibility: hidden;
+  /* text-shadow: #000 1px 1px 3px; */
 }
 
 .hero h1 {
-  margin: 0;
-  padding: 0;
+  font-size: 40px;
+  -webkit-transform: rotate(-3deg);
+}
+
+.hero .subheading {
+  font-size: 18px;
+  -webkit-transform: rotate(-1deg);
 }
 
 
