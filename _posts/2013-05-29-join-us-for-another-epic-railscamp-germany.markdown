@@ -16,8 +16,8 @@ activities and spontaneous RailsCamp craziness to happen. If you want, you can
 even set up tent in the the neighboring skate hall, so you don't have to leave
 during the whole weekend. And how about a climb up the walls during the day?
 
-![Venue, Main Hall]({{site.baseurl}}/img/venue_main-hall_1.png)
-![Venue, Main Hall]({{site.baseurl}}/img/venue_main-hall_2.png)
+![Venue, Main Hall](/img/venue_main-hall_1.png)
+![Venue, Main Hall](/img/venue_main-hall_2.png)
 
 As you can see, RailsCamp Germany is still all about networking and exchanging
 knowledge and ideas in the most laid-back atmosphere possible – no stress, no
