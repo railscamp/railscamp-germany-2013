@@ -159,11 +159,16 @@ body > header {
 
 #content {
   width: 95%;
-  max-width: 960px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: left;
   font-size: 18px;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
 
   p, li {
     line-height: 1.6em;
