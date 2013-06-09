@@ -69,6 +69,24 @@ body > header {
     background-size: cover;
     margin: 0 -5px;
   }
+  &.schedule {
+    padding: 60px 0;
+    background: url('/img/bg_hero_session-board.jpg') 50% center no-repeat;
+    background-size: cover;
+    margin: 0 -5px;
+  }
+  &.tickets {
+    padding: 60px 0;
+    background: url('/img/bg_hero_building.jpg') 50% center no-repeat;
+    background-size: cover;
+    margin: 0 -5px;
+  }
+  &.sponsors {
+    padding: 60px 0;
+    background: url('/img/bg_hero_main-hall-2.jpg') 50% center no-repeat;
+    background-size: cover;
+    margin: 0 -5px;
+  }
   &.blog {
     padding: 60px 0;
     background: url('/img/bg_hero_tent-indoors.jpg') 50% center no-repeat;
