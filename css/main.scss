@@ -19,6 +19,7 @@ body > header {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 1000000;
 
   .content {
     width: 85%;
@@ -109,9 +110,10 @@ body > header {
   margin: 0 auto;
   padding: 40px 20px;
   text-align: left;
+  font-size: 18px;
 
-  p {
-    line-height: 1.5em;
+  p, li {
+    line-height: 1.6em;
   }
 
   p.intro {
@@ -120,16 +122,24 @@ body > header {
   }
 }
 
-#post {
+.post {
   h2.title {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: bold;
+  }
+
+  .meta {
+    color: #666;
   }
 
   pre {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
+  }
+
+  p {
+    margin: 1.5em 0;
   }
 
   ul, ol {
@@ -153,11 +163,16 @@ body > header {
 
   .footnotes {
     padding: 40px 0;
-    font-size: 13px;
+    font-size: 14px;
+
+    p {
+      margin-bottom: 0.5em;
+    }
   }
 
   .footnotes hr {
     border: none;
     border-top: 1px solid #ccc;
+    margin-bottom: 40px;
   }
 }
