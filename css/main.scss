@@ -40,6 +40,7 @@ body > header {
   top: 0;
   left: 0;
   z-index: 1000000;
+  border-bottom: 1px solid #bbb8a9;
 
   .content {
     width: 95%;
@@ -80,7 +81,6 @@ body > header {
 }
 
 .hero {
-  box-shadow: rgba(0, 0, 0, 1) 0 0 5px inset;
   color: #fff;
   /* text-shadow: #000 1px 1px 2px; */
   &.frontpage {
