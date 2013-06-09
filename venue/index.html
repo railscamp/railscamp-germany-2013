@@ -26,9 +26,11 @@ title: Venue | RailsCamp Germany 2013
 <script src="/js/bouncemarker.js"></script>
 
 <script type="text/javascript" charset="utf-8">
-  var map = L.map('map').setView([50.9352007, 7.00926661], 14);
+  var map = L.map('map', {zoomControl: false}).setView([50.9352007, 7.00926661], 14);
 
   L.tileLayer.provider('MapBox.slogmen.map-64a4ugze').addTo(map);
+
+  L.control.zoom({position: 'bottomleft'}).addTo(map);
 
   L.marker([50.9352007, 7.00926661],
     { bounceOnAdd: true, bounceOnAddOptions: {duration: 1000, height: 200}}
