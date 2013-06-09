@@ -126,6 +126,17 @@ body > header {
   height: 435px;
 }
 
+.leaflet-popup {
+  font-size: 1.2em;
+  color: #000;
+
+  span {color: #888;}
+}
+
+.leaflet-popup-close-button {
+  padding: 8px 25px 0 0;
+}
+
 #content {
   width: 95%;
   max-width: 960px;
