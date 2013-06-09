@@ -59,13 +59,15 @@ body > header {
 }
 
 .hero {
-  padding: 60px 0;
-  background: url('/img/bg_hero_frontpage_1.jpg') 50% center no-repeat;
-  background-size: cover;
   box-shadow: rgba(0, 0, 0, 1) 0 0 5px inset;
-  margin: 0 -5px;
   color: #fff;
   /* text-shadow: #000 1px 1px 2px; */
+  &.frontpage {
+    padding: 60px 0;
+    background: url('/img/bg_hero_frontpage_1.jpg') 50% center no-repeat;
+    background-size: cover;
+    margin: 0 -5px;
+  }
 
   h1, .subheading {
     display: inline-block;
