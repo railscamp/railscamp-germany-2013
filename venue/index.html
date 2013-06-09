@@ -1,0 +1,37 @@
+---
+layout: default
+title: Venue | RailsCamp Germany 2013
+---
+
+<div class="hero venue pure-g-r">
+  <div class="pure-u-1" id="map">
+
+  </div>
+</div>
+
+<div id="content">
+  <div class="pure-g-r">
+    <div class="pure-u-1">
+
+    </div>
+  </div>
+</div>
+
+<script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+<script src="/js/leaflet-providers.js"></script>
+<script src="/js/bouncemarker.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  var map = L.map('map').setView([50.9352007, 7.00926661], 14);
+
+  L.tileLayer.provider('MapBox.slogmen.map-64a4ugze').addTo(map);
+
+  //L.marker([50.9352007, 7.00926661]).addTo(map)
+  //    .bindPopup('RailsCamp 2013 <br> Easily customizable.')
+
+  L.marker([50.9352007, 7.00926661],
+    { bounceOnAdd: true, bounceOnAddOptions: {duration: 1000, height: 200}}
+  ).addTo(map)
+  .bindPopup('RailsCamp 2013 <br> Easily customizable.');
+
+</script>
