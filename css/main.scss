@@ -1,3 +1,16 @@
+$grey: #EDEADE;
+$dark-grey: #CBC4B2;
+$white: #fff;
+$black: #000;
+$red: #d21f08;
+
+$link-color: #d21f08;
+$dark-text-color: $black;
+$medium-text-color: $dark-grey;
+
+$padding: 10px;
+$maring: 20px;
+
 * {
   box-sizing: border-box;
 }
@@ -9,12 +22,19 @@ body {
   padding-top: 42px;
 }
 
-a         { color: #d21f08; }
-a:hover   { color: #000; }
+h1, h2, h3, h4, h5, h6 {
+  small {
+    font-weight: normal;
+    color: $medium-text-color;
+  }
+}
+
+a         { color: $link-color; }
+a:hover   { color: $dark-text-color; }
 /* a:visited { color: #a0a; } */
 
 body > header {
-  background: #EDEADE;
+  background: $grey;
   position: fixed;
   width: 100%;
   top: 0;
@@ -53,7 +73,7 @@ body > header {
     }
 
     li a:hover {
-      background: #CBC4B2;
+      background: $dark-grey;
       color: #333;
     }
   }
@@ -215,3 +235,6 @@ body > header {
   text-align: left;
   margin: 40px 0;
 }
+
+@import "modules/sponsors";
+

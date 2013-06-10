@@ -1,0 +1,54 @@
+.sponsors
+  padding: 0
+
+.sponsors--box
+  background-color: $grey
+  padding: $padding
+  margin: $padding
+  display: block
+  color: $dark-text-color
+  text-decoration: none
+  &:hover
+    background-color: $dark-grey
+    color: $dark-text-color
+    text-decoration: none
+
+  > h3, > h4, > h5
+    margin-top: .5em
+    margin-bottom: 0
+
+
+.sponsors--logo
+  width: 100%
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center center
+  background-color: $white
+
+  &.as-railslove
+    background-image: url(/img/sponsors/railslove.png)
+  &.as-zweitag
+    background-image: url(/img/sponsors/zweitag.png)
+  &.as-anynines
+    background-image: url(/img/sponsors/anynines.png)
+  &.as-9elements
+    background-image: url(/img/sponsors/9elements.png)
+
+
+.sponsors_serious
+  @extend .sponsors
+
+  .sponsors--logo
+    height: 150px
+
+.sponsors_small-business
+  @extend .sponsors
+
+  .sponsors--logo
+    height: 130px
+
+.sponsors_micro
+  @extend .sponsors
+
+  .sponsors--logo
+    height: 100px
