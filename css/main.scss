@@ -235,6 +235,23 @@ body > header {
   }
 }
 
+.travel-information {
+  h3 {
+    font-size: 1em;
+  }
+
+  p {font-size: .9em;}
+
+  small {
+    color: #888;
+    font-weight: 300;
+  }
+}
+
+.vehicle {
+  padding-right: 2.5em;
+}
+
 .ticket-sales {
   width: 100%;
   text-align: left;
