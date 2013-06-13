@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Blog | RailsCamp Germany 2013</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="content pure-g-r">
+        <div id="logo" class="pure-u-1-5">
+          <a href="/"><img class="flame" src="/img/flame_500.png" /></a>
+        </div>
+        <div id="menu">
+          <nav id="nav">
+            <ul>
+              <li><a href="/venue">Venue</a></li>
+              <li><a href="/#contribute">Contribute</a></li>
+              <li><a href="/schedule">Schedule</a></li>
+              <li><a href="/tickets">Tickets</a></li>
+              <li><a href="/sponsors">Sponsors</a></li>
+              <li><a href="/blog">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="hero blog pure-g-r">
+  <div class="pure-u-1">
+    <p><img class="flame" src="/img/flame_500.png" /></p>
+    <h1>RailsCamp Germany 2013</h1>
+    <p><span class="subheading">July 27/28, 2013 &middot; Abenteuerhallen Kalk, Cologne</span></p>
+  </div>
+</div>
+
+<div id="content">
+  <div class="pure-g-r">
+    <div class="pure-u-1">
+
+      <h2>Blog</h2>
+
+      <ul class="posts">
+        
+        <li><span>29 May 2013</span> &raquo; <a href="/news/2013/05/29/join-us-for-another-epic-railscamp-germany.html">RailsCamp Germany is back, and you're all invited!</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+    <script src="/js/responsive-nav.js"></script>
+
+    <script>
+      var navigation = responsiveNav("#nav", {
+        animate: true,        // Boolean: Use CSS3 transitions, true or false
+        transition: 400,      // Integer: Speed of the transition, in milliseconds
+        label: "Menu",        // String: Label for the navigation toggle
+        insert: "after",      // String: Insert the toggle before or after the navigation
+        customToggle: "",     // Selector: Specify the ID of a custom toggle
+        openPos: "relative",  // String: Position of the opened nav, relative or static
+        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+        init: function(){},   // Function: Init callback
+        open: function(){},   // Function: Open callback
+        close: function(){}   // Function: Close callback
+      });
+    </script>
+
+
+  </body>
+</html>
