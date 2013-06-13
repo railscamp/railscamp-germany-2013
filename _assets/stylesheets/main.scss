@@ -87,12 +87,12 @@ body > header {
 
   h1 {
     font-size: 40px;
-    -webkit-transform: rotate(-3deg);
+    @include rotate(-3deg);
   }
 
   .subheading {
     font-size: 18px;
-    -webkit-transform: rotate(-1deg);
+    @include rotate(-1deg);
   }
 
   img.flame {
@@ -125,10 +125,7 @@ body > header {
   text-align: left;
   font-size: 18px;
 
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
+  @include hyphens(auto);
 
   p, li {
     line-height: 1.6em;
