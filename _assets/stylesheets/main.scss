@@ -1,11 +1,11 @@
 body > header {
-  background: $grey;
+  background: $light-grey;
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1000000;
-  border-bottom: 1px solid #bbb8a9;
+  border-bottom: 1px solid $border-color;
 
   .content {
     width: 95%;
@@ -34,19 +34,19 @@ body > header {
     }
 
     li a {
-      padding: 10px 20px;
-      color: #666;
+      padding: $padding $padding*2;
+      color: $medium-text-color;
     }
 
     li a:hover {
-      background: $dark-grey;
-      color: #333;
+      background: $medium-grey;
+      color: $dark-text-color;
     }
   }
 }
 
 .hero {
-  color: #fff;
+  color: $white;
   /* text-shadow: #000 1px 1px 2px; */
   &.frontpage {
     padding: 60px 0;
@@ -78,7 +78,7 @@ body > header {
     display: inline-block;
     margin: 0;
     padding: 0 18px;
-    background: #d21f08;
+    background: $primary-color;
     opacity: 0.9;
     font-weight: 300;
     -webkit-backface-visibility: hidden;
@@ -108,9 +108,9 @@ body > header {
 
 .leaflet-popup {
   font-size: 1.2em;
-  color: #000;
+  color: $dark-text-color;
 
-  span {color: #888;}
+  span {color: $medium-text-color;}
 }
 
 .leaflet-popup-close-button {
@@ -144,13 +144,7 @@ body > header {
   }
 
   .meta {
-    color: #666;
-  }
-
-  pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
+    color: $medium-text-color;
   }
 
   p {
@@ -161,9 +155,15 @@ body > header {
     margin-left: 1.35em;
   }
 
+  pre {
+    border: 1px solid $border-color;
+    background-color: $light-grey;
+    padding: 0 .4em;
+  }
+
   code {
-    border: 1px solid #ddd;
-    background-color: #eef;
+    border: 1px solid $border-color;
+    background-color: $light-grey;
     padding: 0 .2em;
   }
 
@@ -187,7 +187,7 @@ body > header {
 
   .footnotes hr {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid $border-color;
     margin-bottom: 40px;
   }
 }
@@ -200,7 +200,7 @@ body > header {
   p {font-size: .9em;}
 
   small {
-    color: #888;
+    color: $medium-text-color;
     font-weight: 300;
   }
 }
