@@ -11,12 +11,14 @@
      <!--[if lte IE 8]>
          <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
      <![endif]-->
+
+    {% include icons.html %}
   </head>
   <body>
     <header>
       <div class="content pure-g-r">
         <div id="logo" class="pure-u-1-5">
-          <a href="/"><img class="flame" src="/img/flame_500.png" /></a>
+          <a href="/"><img class="flame" src="{{ 'railscamp_icon_32x32.png' | asset_path }}" /></a>
         </div>
         <div class="menu pure-u-4-5">
           <nav class="pure-menu pure-menu-open pure-menu-horizontal">
