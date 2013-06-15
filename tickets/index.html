@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tickets | RailsCamp Germany 2013</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="/css/main.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tickets | RailsCamp Germany 2013</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/assets/app-56971c885ad2141428165e7054242ecd.css">
 
-  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
-    <![endif]-->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+     <!--[if lte IE 8]>
+         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+     <![endif]-->
+
+    <link rel="shortcut icon" href="/assets/favicon-b6ed188bc984e58a2a44f969e8c0895f.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon-aed322e47dfe718a745416d028e49808.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/apple-touch-icon-57x57-aed322e47dfe718a745416d028e49808.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/apple-touch-icon-72x72-3bece4a6f75652f17a83cd6141ed9bf1.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/apple-touch-icon-114x114-50da87fe532cfe2121b4d78f636396a5.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/apple-touch-icon-144x144-d45921535675bea97e03141c5989da36.png" />
   </head>
   <body>
     <header>
       <div class="content pure-g-r">
         <div id="logo" class="pure-u-1-5">
-          <a href="/"><img class="flame" src="/img/flame_500.png" /></a>
+          <a href="/"><img class="flame" src="/assets/railscamp_icon_32x32-9d86576036c9448fb482020493e7ee3a.png" /></a>
         </div>
-        <div id="menu">
-          <nav id="nav">
+        <div class="menu pure-u-4-5">
+          <nav class="pure-menu pure-menu-open pure-menu-horizontal">
             <ul>
-              <li><a href="/venue">Venue</a></li>
-              <li><a href="/#contribute">Contribute</a></li>
-              <li><a href="/schedule">Schedule</a></li>
-              <li><a href="/tickets">Tickets</a></li>
-              <li><a href="/sponsors">Sponsors</a></li>
-              <li><a href="/blog">Blog</a></li>
+              <li>
+                <a href="/venue">Venue</a>
+              </li>
+              <li>
+                <a href="/#contribute">Contribute</a>
+              </li>
+              <li>
+                <a href="/schedule">Schedule</a>
+              </li>
+              <li>
+                <a href="/tickets">Tickets</a>
+              </li>
+              <li>
+                <a href="/sponsors">Sponsors</a>
+              </li>
+              <li>
+                <a href="/blog">Blog</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -51,24 +70,4 @@
   </div>
 </div>
 
-
-    <script src="/js/responsive-nav.js"></script>
-
-    <script>
-      var navigation = responsiveNav("#nav", {
-        animate: true,        // Boolean: Use CSS3 transitions, true or false
-        transition: 400,      // Integer: Speed of the transition, in milliseconds
-        label: "Menu",        // String: Label for the navigation toggle
-        insert: "after",      // String: Insert the toggle before or after the navigation
-        customToggle: "",     // Selector: Specify the ID of a custom toggle
-        openPos: "relative",  // String: Position of the opened nav, relative or static
-        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
-        init: function(){},   // Function: Init callback
-        open: function(){},   // Function: Open callback
-        close: function(){}   // Function: Close callback
-      });
-    </script>
-
-
-  </body>
 </html>
