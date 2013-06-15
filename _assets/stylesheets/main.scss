@@ -14,10 +14,6 @@ body > header {
     text-align: left;
   }
 
-  .menu {
-    text-align: right;
-  }
-
   #logo a {
     display: inline-block;
     height: 32px;
@@ -26,22 +22,6 @@ body > header {
 
   #logo img {
     height: 32px;
-  }
-
-  .pure-menu {
-    &.pure-menu-open {
-      background: transparent;
-    }
-
-    li a {
-      padding: $padding $padding*2;
-      color: $medium-text-color;
-    }
-
-    li a:hover {
-      background: $medium-grey;
-      color: $dark-text-color;
-    }
   }
 }
 

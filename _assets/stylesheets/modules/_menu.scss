@@ -2,6 +2,9 @@
 /* heavily customized for railscamp site */
 
 #menu {
+  text-align: right;
+  background: transparent;
+
   ul {
     margin: 0;
     padding: 0;
@@ -16,7 +19,15 @@
     margin-bottom: 2px;
     background: $medium-grey;
 
-    a {padding: 5px 20px;}
+    a {
+      padding: $padding/2 $padding*2;
+      color: $medium-text-color;
+
+      &:hover {
+        background: $medium-grey;
+        color: $dark-text-color;
+      }
+    }
   }
 
   &.opened {
