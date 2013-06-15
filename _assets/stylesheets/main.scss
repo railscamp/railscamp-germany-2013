@@ -1,6 +1,6 @@
 body > header {
   background: $light-grey;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -22,6 +22,12 @@ body > header {
 
   #logo img {
     height: 32px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  body > header {
+    position: fixed;
   }
 }
 
