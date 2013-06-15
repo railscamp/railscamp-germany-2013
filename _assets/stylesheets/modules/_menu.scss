@@ -63,7 +63,7 @@
       background: transparent;
       display: inline-block;
       width: auto;
-      a {padding: 10px 20px;}
+      a {padding: $padding $padding*2;}
     }
   }
 
