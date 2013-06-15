@@ -3,8 +3,8 @@
 
 .sponsors--box
   background-color: $light-grey
-  padding: $padding
-  margin: $padding
+  padding: 1px
+  margin: 0 10px 10px 0
   display: block
   color: $dark-text-color
   text-decoration: none
@@ -24,6 +24,8 @@
   background-repeat: no-repeat
   background-position: center center
   background-color: $white
+  font-size: 0
+  text-indent: -1000000px
 
   &.as-railslove
     background-image: url(asset_path('sponsors/railslove.png'))
@@ -35,6 +37,8 @@
     background-image: url(asset_path('sponsors/9elements.png'))
   &.as-triagens
     background-image: url(asset_path('sponsors/triagens.png'))
+  &.as-5apps
+    background-image: url(asset_path('sponsors/5apps.png'))
 
 
 .sponsors_serious
@@ -54,3 +58,7 @@
 
   .sponsors--logo
     height: 100px
+
+.become-a-sponsor
+  padding-top: 20px
+  font-size: 15px
