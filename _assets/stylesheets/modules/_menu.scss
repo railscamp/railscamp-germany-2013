@@ -68,10 +68,7 @@
 
 #nav-toggle {
   -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  @include user-select(none);
   width: 55px;
   height: 55px;
   position: absolute;
@@ -84,9 +81,6 @@
 @media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   #nav-toggle {
     background-image: url(asset_path('menu-2x.png'));
-    -webkit-background-size: 100px 100px;
-    -moz-background-size: 100px 100px;
-    -o-background-size: 100px 100px;
-    background-size: 100px 100px;
+    @include background-size(100px 100px);
   }
 }
