@@ -16,18 +16,28 @@ body > header {
 
   #logo a {
     display: inline-block;
-    height: 32px;
-    padding: 8px 20px;
+    height: 48px + $padding;
+    padding-top: $padding/2;
   }
 
   #logo img {
-    height: 32px;
+    height: 48px;
   }
 }
 
 @media screen and (min-width: 40em) {
   body > header {
     position: fixed;
+
+    #logo a {
+      display: inline-block;
+      height: 32px + $padding;
+      padding: $padding/2 $padding*2;
+    }
+
+    #logo img {
+      height: 32px;
+    }
   }
 }
 
