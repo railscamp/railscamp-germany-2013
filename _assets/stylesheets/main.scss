@@ -1,6 +1,6 @@
 body > header {
   background: $light-grey;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -14,33 +14,29 @@ body > header {
     text-align: left;
   }
 
-  .menu {
-    text-align: right;
-  }
-
   #logo a {
     display: inline-block;
-    height: 32px;
-    padding: 8px 20px;
+    height: 48px + $padding;
+    padding-top: $padding/2;
   }
 
   #logo img {
-    height: 32px;
+    height: 48px;
   }
+}
 
-  .pure-menu {
-    &.pure-menu-open {
-      background: transparent;
+@media screen and (min-width: 40em) {
+  body > header {
+    position: fixed;
+
+    #logo a {
+      display: inline-block;
+      height: 32px + $padding;
+      padding: $padding/2 $padding*2;
     }
 
-    li a {
-      padding: $padding $padding*2;
-      color: $medium-text-color;
-    }
-
-    li a:hover {
-      background: $medium-grey;
-      color: $dark-text-color;
+    #logo img {
+      height: 32px;
     }
   }
 }
@@ -78,6 +74,7 @@ body > header {
     display: inline-block;
     margin: 0;
     padding: 0 18px;
+    max-width: 98%;
     background: $primary-color;
     opacity: 0.9;
     font-weight: 300;
