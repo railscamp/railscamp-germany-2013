@@ -1118,3 +1118,9 @@ body > header {
 .become-a-sponsor {
   padding-top: 20px;
   font-size: 15px; }
+
+.image {
+  display: block;
+  border: none; }
+  .image.as-full-width {
+    width: 100%; }
