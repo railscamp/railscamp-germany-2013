@@ -200,11 +200,9 @@ body > header {
 }
 
 .travel-information {
-  h3 {
-    font-size: 1em;
+  h4 {
+    margin-bottom: 0;
   }
-
-  p {font-size: .9em;}
 
   small {
     color: $medium-text-color;
