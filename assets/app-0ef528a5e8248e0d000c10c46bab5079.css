@@ -1051,10 +1051,8 @@ body > header {
   border-top: 1px solid #cbc4b2;
   margin-bottom: 40px; }
 
-.travel-information h3 {
-  font-size: 1em; }
-.travel-information p {
-  font-size: .9em; }
+.travel-information h4 {
+  margin-bottom: 0; }
 .travel-information small {
   color: #666666;
   font-weight: 300; }
