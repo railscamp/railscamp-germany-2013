@@ -1184,7 +1184,7 @@ body > header {
   .sponsors--logo.as-railslove {
     background-image: url("/assets/sponsors/railslove-a93c330c7d5de3d6bcaa58c193559dd3.png"); }
   .sponsors--logo.as-zweitag {
-    background-image: url("/assets/sponsors/zweitag-d9a0c9f27bc83e42d3ec98aedef0b4b6.png"); }
+    background-image: url("/assets/sponsors/zweitag-4eb721abcbadc2c0d8ee22cb05fd364f.png"); }
   .sponsors--logo.as-anynines {
     background-image: url("/assets/sponsors/anynines-1c161d952a64cc8c0dac0089100f4e5d.png"); }
   .sponsors--logo.as-9elements {
@@ -1193,6 +1193,8 @@ body > header {
     background-image: url("/assets/sponsors/triagens-3fef530d4e8707dfbeba16870c909e66.png"); }
   .sponsors--logo.as-5apps {
     background-image: url("/assets/sponsors/5apps-4ec2c12276b1342dce6922ab999098a7.png"); }
+  .sponsors--logo.as-adcloud {
+    background-image: url("/assets/sponsors/adcloud-4e30e7b177394a56884d2c426ebe99e2.png"); }
 
 .sponsors_serious .sponsors--logo {
   height: 150px; }
