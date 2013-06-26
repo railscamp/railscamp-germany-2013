@@ -1182,11 +1182,13 @@ body > header {
   font-size: 0;
   text-indent: -1000000px; }
   .sponsors--logo.as-railslove {
-    background-image: url("/assets/sponsors/railslove-a93c330c7d5de3d6bcaa58c193559dd3.png"); }
+    background-image: url("/assets/sponsors/railslove-d8396781ca4ccece9152aa0640ad293c.png"); }
+  .sponsors--logo.as-anynines {
+    background-image: url("/assets/sponsors/anynines-a5c55106ed91e52d9215e2d41f76c2d6.png"); }
   .sponsors--logo.as-zweitag {
     background-image: url("/assets/sponsors/zweitag-4eb721abcbadc2c0d8ee22cb05fd364f.png"); }
   .sponsors--logo.as-anynines {
-    background-image: url("/assets/sponsors/anynines-1c161d952a64cc8c0dac0089100f4e5d.png"); }
+    background-image: url("/assets/sponsors/anynines-a5c55106ed91e52d9215e2d41f76c2d6.png"); }
   .sponsors--logo.as-9elements {
     background-image: url("/assets/sponsors/9elements-3e6f0ea2a96cb37100c5f202242554b0.png"); }
   .sponsors--logo.as-triagens {
