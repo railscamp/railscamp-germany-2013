@@ -1187,6 +1187,8 @@ body > header {
     background-image: url("/assets/sponsors/anynines-a5c55106ed91e52d9215e2d41f76c2d6.png"); }
   .sponsors--logo.as-zweitag {
     background-image: url("/assets/sponsors/zweitag-4eb721abcbadc2c0d8ee22cb05fd364f.png"); }
+  .sponsors--logo.as-bitcrowd {
+    background-image: url("/assets/sponsors/bitcrowd-4f1a544c070b39561c4ea7bcec5ff42b.png"); }
   .sponsors--logo.as-anynines {
     background-image: url("/assets/sponsors/anynines-a5c55106ed91e52d9215e2d41f76c2d6.png"); }
   .sponsors--logo.as-9elements {
@@ -1198,7 +1200,7 @@ body > header {
   .sponsors--logo.as-adcloud {
     background-image: url("/assets/sponsors/adcloud-4e30e7b177394a56884d2c426ebe99e2.png"); }
   .sponsors--logo.as-geekstammtisch {
-    background-image: url("/assets/sponsors/geekstammtisch-40173f7b06750df79b1f871fa8daee5b.png"); }
+    background-image: url("/assets/sponsors/geekstammtisch-532f426e7bdecd628dac4fbd84f717f4.png"); }
 
 .sponsors_serious .sponsors--logo {
   height: 150px; }
