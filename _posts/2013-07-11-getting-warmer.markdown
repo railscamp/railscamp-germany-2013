@@ -62,4 +62,7 @@ That's it for today's status update. As you can see, we're unstoppable by now,
 and it's only getting even better by the day. **Thanks again to everybody who
 contributed so far!** And see you tomorrow for our next announcement!
 
+P.S.: We also have [an Atom feed for the blog](/blog/feed.xml) now. Use any
+RSS/Atom reader to subscribe!
+
 [^foot-1]: "We" always includes you and every other participant.
