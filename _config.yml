@@ -1,4 +1,6 @@
 name: RailsCamp Germany 2013
+description: Updates and announcements for RailsCamp Germany 2013
+url: http://2013.railscamp.de/blog
 pygments: false
 sass:
   syntax: scss        # scss|sass
