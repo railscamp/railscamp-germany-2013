@@ -1205,6 +1205,8 @@ body > header {
     background-image: url("/assets/sponsors/adcloud-4e30e7b177394a56884d2c426ebe99e2.png"); }
   .sponsors--logo.as-geekstammtisch {
     background-image: url("/assets/sponsors/geekstammtisch-532f426e7bdecd628dac4fbd84f717f4.png"); }
+  .sponsors--logo.as-innoq {
+    background-image: url("/assets/sponsors/innoq-ba27d00556cf632d8f7d393170575b9f.png"); }
 
 .sponsors_serious .sponsors--logo {
   height: 150px; }
