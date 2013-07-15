@@ -7,6 +7,29 @@
     <atom:link href="http://2013.railscamp.de/blog/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Second batch of tickets now on sale!</title>
+      <description>&lt;p&gt;&lt;img alt=&#39;SELL ALL THE TICKETS&#39; src=&#39;http://images.memegenerator.net/instances/39726054.jpg&#39; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi everybody,&lt;/p&gt;
+
+&lt;p&gt;As the first batch of tickets is almost gone, we just added another 100 tickets! &lt;sup id=&#39;fnref:1&#39;&gt;&lt;a href=&#39;#fn:1&#39; rel=&#39;footnote&#39;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If you already have a ticket, go out and spread the word to all Ruby, Rails, and Web people you know! If you were thinking about attending, but haven&amp;#8217;t decided yet, you should probably &lt;strong&gt;&lt;a href=&#39;/tickets&#39;&gt;get yours now&lt;/a&gt;&lt;/strong&gt;, because it might be too late otherwise.&lt;/p&gt;
+
+&lt;p&gt;In any case, we&amp;#8217;re all incredibly excited about RailsCamp Germany this year, and the crowdsourced organization &lt;a href=&#39;/news/2013/07/11/getting-warmer.html&#39;&gt;is going really well&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for news about our session planning tool, which you can use to announce your session, so that other people can express their interest in it. That way we can easier allocate the room/location and time for it.&lt;/p&gt;
+
+&lt;p&gt;Hope to see all you in Cologne in 2 weeks!&lt;/p&gt;
+&lt;div class=&#39;footnotes&#39;&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id=&#39;fn:1&#39;&gt;
+&lt;p&gt;We also added the option to pay in cash at the door for people who don&amp;#8217;t own a credit card. Please only use it in that case. Furthermore, it is now possible to buy 2 tickets at once, which many people wanted to do already, but couldn&amp;#8217;t.&lt;/p&gt;
+&lt;a href=&#39;#fnref:1&#39; rev=&#39;footnote&#39;&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</description>
+      <pubDate>Mon, 15 Jul 2013 18:00:00 +0200</pubDate>
+      <link>http://2013.railscamp.de/blog/news/2013/07/15/more-tickets.html</link>
+      <guid isPermaLink="true">http://2013.railscamp.de/blog/news/2013/07/15/more-tickets.html</guid>
+    </item>
+    
+    <item>
       <title>Getting warmer</title>
       <description>&lt;p&gt;Not even 3 weeks left until the best RailsCamp ever – time to start warming up and announcing things! But first off, a big thank you to everybody who already contributed something, anything, to this unconference extraordinaire! You&amp;#8217;re many, and it&amp;#8217;s going great so far. Keep it up!&lt;/p&gt;
 
