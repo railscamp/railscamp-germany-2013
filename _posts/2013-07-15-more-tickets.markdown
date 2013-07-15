@@ -24,7 +24,7 @@ Stay tuned for news about our session planning tool, which you can use to
 announce your session, so that other people can express their interest in it.
 That way we can easier allocate the room/location and time for it.
 
-Hope to see all you in Cologne in 2 weeks!
+Hope to see you all in Cologne in 2 weeks!
 
 [^foot-1]: We also added the option to pay in cash at the door for people who don't
 own a credit card. Please only use it in that case. Furthermore, it is now
