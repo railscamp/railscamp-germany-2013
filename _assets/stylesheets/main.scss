@@ -159,7 +159,7 @@ body > header {
   }
 
   ul, ol {
-    margin-left: 1.35em;
+    margin-left: 0;
   }
 
   pre {
@@ -218,4 +218,14 @@ body > header {
   width: 100%;
   text-align: left;
   margin: 40px 0;
+}
+
+@media screen and (max-width: 400px) {
+  #content {
+    font-size: 14px;
+    padding: 10px 10px 50px;
+    ul, ol {
+      padding-left: 20px !important;
+    }
+  }
 }

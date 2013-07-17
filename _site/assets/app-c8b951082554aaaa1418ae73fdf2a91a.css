@@ -1027,7 +1027,7 @@ body > header {
 .post p {
   margin: 1.5em 0; }
 .post ul, .post ol {
-  margin-left: 1.35em; }
+  margin-left: 0; }
 .post pre {
   border: 1px solid #cbc4b2;
   background-color: #edeade;
@@ -1065,6 +1065,12 @@ body > header {
   text-align: left;
   margin: 40px 0; }
 
+@media screen and (max-width: 400px) {
+  #content {
+    font-size: 14px;
+    padding: 10px 10px 50px; }
+    #content ul, #content ol {
+      padding-left: 20px !important; } }
 /* responsive-nav.js v1.0.14 by @viljamis */
 /* heavily customized for railscamp site */
 .menu-wrapper {
