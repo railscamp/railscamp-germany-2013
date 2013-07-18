@@ -1203,8 +1203,6 @@ body > header {
     background-image: url("/assets/sponsors/anynines-e73907d08f09711d2840a602d1f0f34a.png"); }
   .sponsors--logo.as-9elements {
     background-image: url("/assets/sponsors/9elements-3e6f0ea2a96cb37100c5f202242554b0.png"); }
-  .sponsors--logo.as-triagens {
-    background-image: url("/assets/sponsors/triagens-3fef530d4e8707dfbeba16870c909e66.png"); }
   .sponsors--logo.as-5apps {
     background-image: url("/assets/sponsors/5apps-4ec2c12276b1342dce6922ab999098a7.png"); }
   .sponsors--logo.as-adcloud {
@@ -1219,6 +1217,8 @@ body > header {
     background-image: url("/assets/sponsors/salesking-2a6f2de5c1a5c2aefd1e67ef07205a0b.png"); }
   .sponsors--logo.as-putpat {
     background-image: url("/assets/sponsors/putpat-cfe746c90a30c6feb03dff9c5bc4146d.png"); }
+  .sponsors--logo.as-rrbone {
+    background-image: url("/assets/sponsors/rrbone-145853eb49e3b9c64acdd983b9650f06.png"); }
 
 .sponsors_serious .sponsors--logo {
   height: 150px; }
