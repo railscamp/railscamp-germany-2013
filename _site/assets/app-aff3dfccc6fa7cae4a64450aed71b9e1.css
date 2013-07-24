@@ -1223,6 +1223,8 @@ body > header {
     background-image: url("/assets/sponsors/rrbone-f1d3500c3ee0f2c60fdfb2d33c255d4f.png"); }
   .sponsors--logo.as-tividoo {
     background-image: url("/assets/sponsors/tividoo-9802dc6454170dab2dc28a60ea5c2da5.png"); }
+  .sponsors--logo.as-fhkoeln {
+    background-image: url("/assets/sponsors/fhkoeln-113229bdf102ca399948fd86d72dd335.png"); }
 
 .sponsors_serious .sponsors--logo {
   height: 150px; }
